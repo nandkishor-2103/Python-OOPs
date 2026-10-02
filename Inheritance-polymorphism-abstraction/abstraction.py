@@ -1,7 +1,7 @@
 
 #^ ==================== ABSTRACTION =========================
 #? ==> Abstraction hides implementation details and exposes only the essential functionality to the user.
-#~ 1. Abstract method always contain atleast one abstract method
+#~ 1. Abstract class always contain atleast one abstract method
 #~ 2. We never make object of abstract class
 
 #* EXAMPLES:

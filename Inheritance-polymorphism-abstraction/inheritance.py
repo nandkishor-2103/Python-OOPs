@@ -1,6 +1,6 @@
 
 #^ Class Relationship:
-#& - Aggeegation (has a relatipnship)
+#& - Aggeegation (has a relatinship)
 #* Example: Resturant has a Menu (one class owns the other class)
 #? CODING EXAMPLE:
 """ class Customer:
@@ -105,8 +105,7 @@ s.buy() """
 
 
 # ^ Super Keyword
-# - It not access the attribute of the parent class
-# - It can only access method of parent class in child class
+# ✅ super() methods, properties, descriptors, class attributes, etc. ko access kar sakta hai
 # - It cannot called outside of the class
 
 # ^ Types of Inheritance:

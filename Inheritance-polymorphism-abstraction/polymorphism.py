@@ -44,6 +44,7 @@ for animal in animals:
         return a + b + c
 
 
+
 calc = Calculator()
 
 print(calc.add(10, 20))

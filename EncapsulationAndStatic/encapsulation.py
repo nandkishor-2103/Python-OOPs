@@ -4,7 +4,7 @@
 # OR
 # ? ==> Encapsulation involves bundling data (attributes) and the methods that operate on that data into a single unit (a class) while restricting direct access to some of the object's components
 
-class BankAccount:
+""" class BankAccount:
 
     def __init__(self, balance):
         self.__balance = balance
@@ -26,14 +26,14 @@ account = BankAccount(5000)
 account.deposit(1000)
 account.withdraw(2000)
 
-print(account.get_balance())
+print(account.get_balance()) """
 
 
 
 #^ ============ STATIC =============
 #? ==> A static method is a method defined inside a class that does not depend on instance or class state and therefore does not require self or cls.
 
-class User:
+""" class User:
 
     def __init__(self, name):
         self.name = name
@@ -46,9 +46,9 @@ class User:
 user = User("Rahul")
 
 print(user.is_valid_email("rahul@gmail.com"))
-print(User.is_valid_email("rahul@gmail.com"))
+print(User.is_valid_email("rahul@gmail.com")) """
 
-#^ ==================== SUPER ======================
+#^ ==================== SUPER() ======================
 #? ==> super() is used to access the next class in the inheritance hierarchy according to Python's MRO, commonly to call parent methods or constructors.
 #? ==> Method Overriding mein super() useful hota hai
 class Person:
@@ -66,5 +66,5 @@ class Student(Person):
 
 student = Student("Rahul", 101)
 
-print(student.name)
 print(student.roll_no)
+print(student.name)
